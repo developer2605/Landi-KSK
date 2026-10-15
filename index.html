@@ -6,7 +6,7 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Trung Tâm Khám Sức Khỏe Toàn Diện - BVĐK Phương Đông | Đẳng Cấp Y Tế 5 Sao</title>
-    
+
     <!-- Favicon (Icon trên tab trình duyệt) -->
     <link rel="shortcut icon" href="https://benhvienphuongdong.vn/public/uploads/logo/favicon-pd.png" type="image/png">
     <link rel="icon" href="https://benhvienphuongdong.vn/public/uploads/logo/favicon-pd.png" type="image/png">
@@ -29,7 +29,8 @@
     <!-- Fonts & Icons (Google Font Inter hỗ trợ 100% tiếng Việt, sắc nét, đồng bộ toàn trang) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- TRACKING SCRIPTS PLACEHOLDER (Facebook Pixel, Google Ads, TikTok Ads) -->
@@ -53,7 +54,7 @@
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
             if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
             n.queue = []; t = b.createElement(e); t.async = !0;
@@ -66,6 +67,25 @@
     </script>
     <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=333294799873285&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '975653367315826');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=975653367315826&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
 
     <style>
@@ -101,7 +121,12 @@
         }
 
         /* Đồng bộ Font chữ toàn trang 100% bao gồm cả Form, Button, Input */
-        body, button, input, select, textarea, optgroup {
+        body,
+        button,
+        input,
+        select,
+        textarea,
+        optgroup {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             color: var(--text-dark);
             -webkit-font-smoothing: antialiased;
@@ -1361,10 +1386,12 @@
                             <div class="form-group">
                                 <select name="package" class="form-control" required>
                                     <option value="" disabled selected>Chọn gói khám / dịch vụ quan tâm *</option>
-                                    <option value="Gói Nâng Cao - Bạch Kim">Gói Nâng Cao - Bạch Kim (Platinum VIP)</option>
+                                    <option value="Gói Nâng Cao - Bạch Kim">Gói Nâng Cao - Bạch Kim (Platinum VIP)
+                                    </option>
                                     <option value="Gói Kim Cương (Diamond VIP)">Gói Kim Cương (Diamond VIP)</option>
                                     <option value="Gói Tổng Thống / VIP Lượng Tử">Gói Tổng Thống / VIP Lượng Tử</option>
-                                    <option value="Khám Sức Khỏe Tổng Quát Tiêu Chuẩn">Khám Sức Khỏe Tổng Quát Tiêu Chuẩn</option>
+                                    <option value="Khám Sức Khỏe Tổng Quát Tiêu Chuẩn">Khám Sức Khỏe Tổng Quát Tiêu
+                                        Chuẩn</option>
                                     <option value="Tầm Soát Ung Thư Đa Điểm VIP">Tầm Soát Ung Thư Đa Điểm VIP</option>
                                     <option value="Tầm Soát Ung Thư Cổ Tử Cung">Tầm Soát Ung Thư Cổ Tử Cung</option>
                                     <option value="Cấy Que Tránh Thai">Dịch Vụ Cấy Que Tránh Thai (Implanon)</option>
@@ -1492,12 +1519,14 @@
                     <ul class="pkg-features">
                         <li><i class="fa-solid fa-check"></i> Khám tổng quát Nội, Ngoại, Mắt, TMH, RHM</li>
                         <li><i class="fa-solid fa-check"></i> Xét nghiệm công thức máu toàn bộ (18-24 chỉ số)</li>
-                        <li><i class="fa-solid fa-check"></i> Đánh giá chức năng Gan (AST, ALT), Thận (Ure, Creatinin)</li>
+                        <li><i class="fa-solid fa-check"></i> Đánh giá chức năng Gan (AST, ALT), Thận (Ure, Creatinin)
+                        </li>
                         <li><i class="fa-solid fa-check"></i> Kiểm tra đường huyết & mỡ máu tổng thể</li>
                         <li><i class="fa-solid fa-check"></i> Chụp X-quang ngực thẳng kỹ thuật số</li>
                         <li><i class="fa-solid fa-check"></i> Siêu âm ổ bụng tổng quát màu</li>
                     </ul>
-                    <button type="button" class="btn-pkg" onclick="selectPackage('Khám Sức Khỏe Tiêu Chuẩn')">Chọn Gói Này</button>
+                    <button type="button" class="btn-pkg" onclick="selectPackage('Khám Sức Khỏe Tiêu Chuẩn')">Chọn Gói
+                        Này</button>
                 </div>
 
                 <!-- Gói 2: Popular -->
@@ -1519,7 +1548,8 @@
                         <li><i class="fa-solid fa-check"></i> Siêu âm tuyến giáp & tuyến vú / tiền liệt tuyến</li>
                         <li><i class="fa-solid fa-check"></i> Tặng 01 Bữa phụ dinh dưỡng tại viện</li>
                     </ul>
-                    <button type="button" class="btn-pkg" onclick="selectPackage('Gói Nâng Cao - Bạch Kim')">Đăng Ký Gói Này</button>
+                    <button type="button" class="btn-pkg" onclick="selectPackage('Gói Nâng Cao - Bạch Kim')">Đăng Ký Gói
+                        Này</button>
                 </div>
 
                 <!-- Gói 3 -->
@@ -1540,7 +1570,8 @@
                         <li><i class="fa-solid fa-check"></i> Đo mật độ xương toàn thân DEXA</li>
                         <!--li><i class="fa-solid fa-check"></i> Tặng vé trải nghiệm Tắm khoáng Onsen trị liệu</li-->
                     </ul>
-                    <button type="button" class="btn-pkg" onclick="selectPackage('Gói Kim Cương (Diamond VIP)')">Chọn Gói Này</button>
+                    <button type="button" class="btn-pkg" onclick="selectPackage('Gói Kim Cương (Diamond VIP)')">Chọn
+                        Gói Này</button>
                 </div>
 
                 <!-- Gói 4 -->
@@ -1561,7 +1592,8 @@
                         <li><i class="fa-solid fa-check"></i> Trọn gói chăm sóc Onsen & Bữa ăn VIP 5 sao</li>
                         <li><i class="fa-solid fa-check"></i> Bác sĩ theo dõi sức khỏe riêng định kỳ 12 tháng</li>
                     </ul>
-                    <button type="button" class="btn-pkg" onclick="selectPackage('Gói Tổng Thống / VIP Lượng Tử')">Nhận Báo Giá VIP</button>
+                    <button type="button" class="btn-pkg" onclick="selectPackage('Gói Tổng Thống / VIP Lượng Tử')">Nhận
+                        Báo Giá VIP</button>
                 </div>
 
             </div>
